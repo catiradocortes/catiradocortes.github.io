@@ -22,13 +22,13 @@ repository               : "catiradocortes/catiradocortes.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Your Sidebar Name"
+  name             : "Carlos Tirado Cortes"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Lecturer in Interaction Design. Virtual Environments researcher."
+  location         : "Sydney"
+  employer         : "University of Sydney"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "carlos.tiradocortes@sydney.edu.au" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
