@@ -1,11 +1,19 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+I am a Lecturer at the [Discipline of Design Lab](https://design.sydney.edu.au/), [Faculty of Architecture, Design & Planning](https://www.sydney.edu.au/architecture/), a the [University of Sydney](https://www.sydney.edu.au/). My main research is the use of immersive technologies to represent complex datasets to convey complex messages to users. Currently, my research projects focus on **human kinematics** and **immersive visualization of geospatial data**. 
+
+Before joining the University of Sydney, I had the opportunity to work with Prof. CT Lin (UTS), Dr. Tim Chen (Adelaide), and Prof. Dennis Del Favero (UNSW) across various research fields including Human-Computer Interaction, Brain-Computer Interfaces, Data Visualization, Visual Arts, AI/ML, and Interaction Design.
+
+
+
+
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
