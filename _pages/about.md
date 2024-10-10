@@ -9,9 +9,7 @@ redirect_from:
 
 I am a Lecturer at the [Discipline of Design Lab](https://design.sydney.edu.au/), [Faculty of Architecture, Design & Planning](https://www.sydney.edu.au/architecture/), a the [University of Sydney](https://www.sydney.edu.au/). My main research is the use of immersive technologies to represent complex datasets to convey complex messages to users. Currently, my research projects focus on **human kinematics** and **immersive visualization of geospatial data**. 
 
-Before joining the University of Sydney, I had the opportunity to work with [Prof. CT Lin (University of Technology, Sydney)](https://profiles.uts.edu.au/Chin-Teng.Lin), [Dr. Tim Chen (University of Adelaide)](https://ht-timchen.github.io/), [Dr. Thomas Do (THE BEST, University of Technology, Sydney)](https://profiles.uts.edu.au/Thomas.Do), and [Prof. Dennis Del Favero (The University of New South Wales)](https://www.unsw.edu.au/staff/dennis-del-favero) across various research fields including Human-Computer Interaction, Brain-Computer Interfaces, Data Visualization, Visual Arts, AI/ML, and Interaction Design.
-
-
+Before joining the University of Sydney, I had the opportunity to work with [Prof. CT Lin (University of Technology, Sydney)](https://profiles.uts.edu.au/Chin-Teng.Lin), [Dr. Tim Chen (University of Adelaide)](https://ht-timchen.github.io/), [Dr. Thomas Do (THE BEST, University of Technology, Sydney)](https://profiles.uts.edu.au/Thomas.Do), and [Prof. Dennis Del Favero (The University of New South Wales)](https://www.unsw.edu.au/staff/dennis-del-favero) across various research fields including Human-Computer Interaction, Immersive Technologies, Data Visualization, Interaction Design, AI/ML, Brain-Computer Interfaces, and Visual Arts.
 
 
 
