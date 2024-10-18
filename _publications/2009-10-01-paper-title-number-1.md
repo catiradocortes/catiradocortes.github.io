@@ -2,7 +2,7 @@
 title: "Evaluating Balance Recovery Techniques for Users Wearing Head-Mounted Display in VR"
 collection: publications
 category: manuscripts
-permalink: /files/paper1.pdf
+permalink: /files/slides1.pdf
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2019-07-09
 venue: 'IEEE Transactions in Visualization and Computer Graphics (TVCG)'
