@@ -36,6 +36,7 @@
 
 
     {% if include.type != "grid" and teaser %}
+      <p>Teaser exists: {{ teaser }}</p>
       <div class="archive__item-teaser">
         <img src=
           {% if teaser contains "://" %}
