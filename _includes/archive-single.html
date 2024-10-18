@@ -36,7 +36,7 @@
     </h2>
 
 
-    {% if include.type != "grid" and teaser %}
+    {% if include.type == "list" and teaser %}
       <div class="archive__item-teaser">
         <img src=
           {% if teaser contains "://" %}
