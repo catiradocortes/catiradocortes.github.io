@@ -1,4 +1,3 @@
-
 ---
 title: "Analysis of VR Sickness and Gait Parameters During Non-Isometric Virtual Walking with Large Translational Gain"
 collection: publications
