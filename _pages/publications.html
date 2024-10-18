@@ -23,7 +23,7 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% if page.image %}
+      {% if site.image %}
         <div class="publication-image">
           <img src="{{ page.image }}" alt="Teaser image for {{ page.title }}" class="img-fluid">
         </div>
