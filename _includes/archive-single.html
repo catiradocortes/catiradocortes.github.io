@@ -13,7 +13,13 @@
 {% endif %}
 
 
-<div class="{{ include.type | default: "list" }}__item">
+{% if include.type %}
+  {% assign include_type = include.type%}
+{% else %}
+  {%assign include_type = "list"%}
+{%endif%}
+
+<div class="{{ include_type }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -38,7 +44,7 @@
     </h2>
 
 
-    {% if include.type == "list" and teaser != ""%}
+    {% if include_type == "list" and teaser != ""%}
       <div class="archive__item-teaser">
         <img src=
           {% if "://" in teaser %}
