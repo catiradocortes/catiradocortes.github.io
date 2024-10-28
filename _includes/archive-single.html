@@ -19,6 +19,9 @@
   {%assign include_type = "list"%}
 {%endif%}
 
+
+{% assign teaser_value = post.header.teaser | "other teaser" | post.teaser | "post.teaser" | site.teaser%}
+
 <div class="{{ include_type }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include_type == "grid" and teaser %}
