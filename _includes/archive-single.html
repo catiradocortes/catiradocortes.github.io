@@ -29,7 +29,7 @@
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-          alt="{{teaser}}">
+          alt="teaser: {{teaser}}">
       </div>
     {% endif %}
 
@@ -52,7 +52,7 @@
           {% else %}
             "{{ base_path | append: '/images/' | append: teaser }}"
           {% endif %}
-          alt="{{teaser}}">
+          alt="teaser: {{teaser}}">
       </div>
     {% endif %}
 
