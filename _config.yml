@@ -13,7 +13,7 @@ title_separator          : "-"
 name                     : &name "Carlos Tirado Cortes"
 description              : &description "This is my personal researcher website."
 url                      : https://catiradocortes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "catiradocortes.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "catiradocortes/catiradocortes.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
