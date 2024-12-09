@@ -50,15 +50,17 @@
 
     {% if include_type == "list" and teaser != ""%}
       <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ base_path | append: '/images/' | append: teaser }}"
-          {% endif %}
+        <img src= "/images/profile.png"
           alt="meet last try in: {{teaser_value}}">
       </div>
     {% endif %}
+
+
+    <!--  {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ base_path | append: '/images/' | append: teaser }}"
+          {% endif %} -->
 
     
     {% if post.read_time %}
