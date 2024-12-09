@@ -29,9 +29,9 @@
       <div class="archive__item-teaser">
         <img src=
           {% if teaser contains "://" %}
-            "{{ teaser }}"
+            "{{ teaser_value }}"
           {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            "{{ teaser_value | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
           alt="another_test">
       </div>
@@ -50,7 +50,12 @@
 
     {% if include_type == "list" and teaser != ""%}
       <div class="archive__item-teaser">
-        <img src= "/images/vr_falls.jpg"
+        <img src=
+          {% if teaser contains "://" %}
+              "{{ teaser_value }}"
+            {% else %}
+              "{{ base_path | append: '/images/' | append: teaser_value }}"
+            {% endif %}
           alt="papercut: {{teaser_value}}">
       </div>
     {% endif %}
