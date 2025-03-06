@@ -12,6 +12,4 @@ teaser: "/images/vr_falls.jpg"
 ---
 
 
-The error is here. It wont load the teaser/paper_teaser thingy
-
 Room-scale 3D position tracking enables users to explore a virtual environment by physically walking, which improves comfort and the level of immersion. However, when users walk with their eyesight blocked by a head-mounted display, they may unexpectedly lose their balance and fall if they bump into real-world obstacles or unintentionally shift their center of mass outside the margin of stability. This paper evaluates balance recovery methods and intervention timing during the use of VR with the assumption that the onset of a fall is given. Our experiment followed the tether-release protocol during clinical research and induced a fall while a subject was engaged in a secondary 3D object selection task. The experiment employed a two-by-two design that evaluated two assistive techniques, i.e., video-see-through and auditory warning at two different timings, i.e., at fall onset and 500ms prior to fall onset. The data from 17 subjects showed that video-see-through triggered 500 ms before the onset of fall can effectively help users recover from falls. Surprisingly, video-see-through at fall onset has a significant negative impact on balance recovery and produces similar results to those of the baseline condition (no intervention).
