@@ -7,7 +7,7 @@ excerpt: ''
 date: 2019-07-09
 venue: 'IEEE Transactions in Visualization and Computer Graphics (TVCG)'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/8758372'
-citation: 'C. A. T. Cortes, H. -T. Chen, D. L. Sturnieks, J. Garcia, S. R. Lord and C. -T. Lin, "Evaluating Balance Recovery Techniques for Users Wearing Head-Mounted Display in VR," in IEEE Transactions on Visualization and Computer Graphics, vol. 27, no. 1, pp. 204-215, 1 Jan. 2021, doi: 10.1109/TVCG.2019.2927477'
+citation: 'C. A. Tirado Cortes, H. -T. Chen, D. L. Sturnieks, J. Garcia, S. R. Lord and C. -T. Lin, "Evaluating Balance Recovery Techniques for Users Wearing Head-Mounted Display in VR," in IEEE Transactions on Visualization and Computer Graphics, vol. 27, no. 1, pp. 204-215, 1 Jan. 2021, doi: 10.1109/TVCG.2019.2927477'
 teaser: '/images/500x300.jpg'
 ---
 
