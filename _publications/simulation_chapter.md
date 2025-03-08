@@ -1,7 +1,7 @@
 ---
 title: "Simulation of Extreme Fire Event Scenarios Using Fully Physical Models and Visualisation Systems"
 collection: publications
-category: book_chapters
+category: books
 permalink: /publications/simulation_chapter
 excerpt: ''
 date: 2024-05-03
