@@ -10,8 +10,10 @@ location: "Shanghai, China"
 
 [More information here](https://catiradocortes.github.io/publications/IEEE_VR)
 
+
+Paper presentation at Conference IEEE VR 2023. My participation was remote, you can check the links to the video abstract and my presentation below!
+
 [Video Abstract](https://youtu.be/WZ6nudqcwNs)
 
 [Video Presentation](https://youtu.be/YnU9azOdN-A)
 
-Paper presentation at Conference IEEE VR 2023.
