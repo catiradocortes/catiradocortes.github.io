@@ -1,11 +1,11 @@
 ---
 title: "Analysis of Wildfire Visualization Systems for Research and Training: Are They up for the Challenge of the Current State of Wildfires?"
 collection: talks
-type: "Talk"
+type: "Conference Presentation"
 permalink: /talks/wildfire_lit_rev_talk
 venue: "IEEE VIS 2023"
 date: 2023-10-26
-location: "Melbourne, Victorial, Australia"
+location: "Melbourne, Victoria, Australia"
 ---
 
 As part of invited IEEE TVCG journal papers to IEE VIS, I presented the results of our literature review.
