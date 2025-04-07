@@ -9,5 +9,9 @@ location: "Shanghai, China"
 ---
 
 [More information here](https://catiradocortes.github.io/publications/IEEE_VR)
+
 [Video Abstract](https://youtu.be/WZ6nudqcwNs)
+
 [Video Presentation](https://youtu.be/YnU9azOdN-A)
+
+Paper presentation at Conference IEEE VR 2023.
