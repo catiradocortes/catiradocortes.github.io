@@ -3,7 +3,7 @@ title: "An EEG-based Experiment on VR Sickness and Postural Instability While Wa
 collection: talks
 type: "Conference Presentation"
 permalink: /talks/eeg_sickness_ieee_vr
-venue: "IEEE VR 2023"
+venue: "2023 IEEE Conference Virtual Reality and 3D User Interfaces (VR)"
 date: 2023-03-28
 location: "Shanghai, China"
 ---
