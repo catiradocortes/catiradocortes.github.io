@@ -19,20 +19,22 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Lecturer in Interaction Design
+  * Discipline of Design, Sydney School of Architecture, Design and Planning
+  * University of Sydney
+  * On a 40-40-20 position.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* ARC Laureate Postdoctoral Fellow in Intelligent Visualization
+  * iCinema Centre for Interactive Cinema Research
+  * The University of New South Wales
+  * I mainly worked under the Laureate Project iFire. The project focused on building an Intelligent Visualization System capable of realistically depicting the behaviour of wildfires.
+  * Supervisor: Professor Dennis Del Favero
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Research Support
+  * Computer Intelligence and Brain-Computer Interfaces Centre
+  * University of Technology, Sydney
+  * Worked as research support on topics complementary to my main PhD research.
+  * Supervisor: Distinguished Professor CT Lin.
   
 
 Publications
@@ -47,12 +49,5 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+
