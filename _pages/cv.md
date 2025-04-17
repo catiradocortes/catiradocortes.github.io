@@ -9,11 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
+[Download Full CV as PDF]({{ base_path }}/files/CV_Complete-3.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Human-Computer Interaction, University of Technology, Sydney, Australia, 2021
+* M.S. in Computer Game Engineering, Newcastle University, UK, 2015
+* B.S. in Engineering and Information Technology, Instituto Tecnologico y de Estudios Superiores de Monterrey, Campus Laguna, 2012
 
 Work experience
 ======
@@ -32,14 +34,6 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
