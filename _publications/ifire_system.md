@@ -7,7 +7,7 @@ excerpt: ''
 date: 2025-04-26
 venue: 'Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems'
 paperurl: 'https://dl.acm.org/doi/abs/10.1145/3706599.3719903'
-citation: 'Carlos A. Tirado Cortes, Mario Flores Gonzalez, Richard J. Hurley, and Dennis del Favero. 2025. Designing an Immersive Wildfire Visualization System for Firefighters. In Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA ’25), April 26-May 1, 2025, Yokohama, Japan. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3706599.3719903'
+citation: 'Carlos Alfredo Tirado Cortes, Mario Flores Gonzalez, Richard J. Hurley, and Dennis Del Favero. 2025. Designing an Immersive Wildfire Visualization System for Firefighters. In Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA '25). Association for Computing Machinery, New York, NY, USA, Article 183, 1–10. https://doi.org/10.1145/3706599.3719903'
 teaser: '/images/ifire_preview.png'
 ---
 
