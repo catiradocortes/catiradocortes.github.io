@@ -7,7 +7,7 @@ excerpt: ''
 date: 2025-04-26
 venue: 'Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems'
 paperurl: 'https://doi.org/10.1145/3706599.3719955'
-citation: 'Mario Flores Gonzalez, Carlos A Tirado Cortes, and Dennis Del Favero. 2025. Tablet as an enabler for Immersive Visceral Experiences. In Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA '25). Association for Computing Machinery, New York, NY, USA, Article 499, 1–9. https://doi.org/10.1145/3706599.3719955'
+citation: 'Mario Flores Gonzalez, Carlos A Tirado Cortes, and Dennis Del Favero. 2025. Tablet as an enabler for Immersive Visceral Experiences. In Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA 25). Association for Computing Machinery, New York, NY, USA, Article 499, 1–9. https://doi.org/10.1145/3706599.3719955'
 teaser: '/images/tablet_teaser.png'
 ---
 
