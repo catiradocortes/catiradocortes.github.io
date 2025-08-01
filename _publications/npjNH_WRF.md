@@ -7,7 +7,7 @@ excerpt: ''
 date: 2025-07-31
 venue: 'npj Natural Hazards'
 paperurl: 'https://www.nature.com/articles/s44304-025-00132-0'
-citation: 'Cheung, K.K.W., Sharples, J., Del Favero, D. et al. Dynamic fire-atmosphere interaction in the 2020 Montana Bridger Foothills Wildfire as revealed by WRF-SFIRE simulations. npj Nat. Hazards 2, 75 (2025). https://doi.org/10.1038/s44304-025-00132-0'
+citation: 'Cheung, K.K.W., Sharples, J., Del Favero, D., Tirado Cortes C.A. Dynamic fire-atmosphere interaction in the 2020 Montana Bridger Foothills Wildfire as revealed by WRF-SFIRE simulations. npj Nat. Hazards 2, 75 (2025). https://doi.org/10.1038/s44304-025-00132-0'
 teaser: "/images/wrf_output.png"
 ---
 
