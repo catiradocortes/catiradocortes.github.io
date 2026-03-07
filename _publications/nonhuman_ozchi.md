@@ -1,7 +1,7 @@
 ---
 title: "Engaging Human and Non-Human Perspectives in Crisis Resilience: Designing AI-Supported Immersive Technologies for Inclusive Decision-Making"
 collection: publications
-category: posters
+category: workshop
 permalink: /publication/nonhuman_ozchi
 excerpt: ''
 date: 2025-11-28
