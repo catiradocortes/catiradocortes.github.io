@@ -1,7 +1,7 @@
 ---
 title: "Tablet as an enabler for Immersive Visceral Experiences"
 collection: publications
-category: conferences
+category: posters
 permalink: /publication/ifire_table
 excerpt: ''
 date: 2025-04-26

@@ -82,9 +82,9 @@ publication_category:
   books:
     title: 'Book Chapters'  
   posters:
-    title: 'Posters'
+    title: 'Posters and Late Breaking Work'
   workshop:
-    title: 'Workshop/Position Papers'
+    title: 'Workshop Proposals and Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

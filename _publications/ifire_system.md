@@ -1,7 +1,7 @@
 ---
 title: "Designing an Immersive Wildfire Visualization System for Firefighters"
 collection: publications
-category: conferences
+category: posters
 permalink: /publication/ifire_system
 excerpt: ''
 date: 2025-04-26
