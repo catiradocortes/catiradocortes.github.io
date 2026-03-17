@@ -2,6 +2,8 @@
 title: "Kinematic Sickness: Understanding Cybersickness Through Body Kinematics"
 collection: publications
 category: manuscripts
+publication_tags:
+    - VR Sickness
 permalink: /publications/kinematic_sickness
 excerpt: ''
 date: 2026-03-23

@@ -2,6 +2,8 @@
 title: "Virtual Global Landmark: An Augmented Reality Technique to Improve Spatial Navigation Learning"
 collection: publications
 category: posters
+publication_tags:
+    - Navigation
 permalink: /publication/landmark
 excerpt: ''
 date: 2021-05-08
