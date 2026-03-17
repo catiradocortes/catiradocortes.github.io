@@ -2,6 +2,8 @@
 title: "An EEG-based Experiment on VR Sickness and Postural Instability While Walking in Virtual Environments"
 collection: publications
 category: conferences
+publication_tags:
+    - VR Sickness
 permalink: /publications/IEEE_VR
 excerpt: ''
 date: 2023-03-25
