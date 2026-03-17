@@ -66,6 +66,38 @@
   }
 }
 
+.archive__item-tags {
+  margin: 0.25em 0 0.5em;
+  font-size: $type-size-7;
+}
+
+.pub-tag {
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  margin: 0 0.25em 0.25em 0;
+  border-radius: 999px;
+  background-color: $light-gray;
+  color: $dark-gray;
+  text-decoration: none;
+}
+
+// Example color overrides per tag "slug"
+// Adjust or extend these classes as you like in this file.
+.pub-tag--vr-sickness {
+  background-color: lighten($danger-color, 10%);
+  color: #fff;
+}
+
+.pub-tag--locomotion {
+  background-color: lighten($info-color, 5%);
+  color: #fff;
+}
+
+.pub-tag--bci {
+  background-color: lighten($success-color, 5%);
+  color: #fff;
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
