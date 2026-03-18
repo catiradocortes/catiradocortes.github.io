@@ -68,8 +68,8 @@ author_profile: true
             el.classList.remove("is-hidden");
             return;
           }
-          var csv = el.getAttribute("data-publication-tags") || "";
-          var tags = csv.split(",").filter(Boolean);
+          var tagButtons = el.querySelectorAll("[data-pub-tag]");
+          var tags = Array.prototype.map.call(tagButtons, function (btn) { return btn.getAttribute("data-pub-tag"); });
           var match = tags.indexOf(tagSlug) !== -1;
           // If an item has no tags, hide it when a specific tag is selected
           el.classList.toggle("is-hidden", !match);
