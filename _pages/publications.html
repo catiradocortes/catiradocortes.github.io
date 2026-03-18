@@ -68,7 +68,8 @@ author_profile: true
             el.classList.remove("is-hidden");
             return;
           }
-          var csv = el.getAttribute("data-publication-tags") || "";
+          var tagSource = el.querySelector("[data-publication-tags]");
+          var csv = tagSource ? tagSource.getAttribute("data-publication-tags") || "" : "";
           var tags = csv.split(",").filter(Boolean);
           var match = tags.indexOf(tagSlug) !== -1;
           // If an item has no tags, hide it when a specific tag is selected
