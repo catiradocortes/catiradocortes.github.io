@@ -73,31 +73,38 @@
 
 .pub-tag {
   display: inline-block;
+  border: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: none;
   padding: 0.1em 0.5em;
   margin: 0 0.25em 0.25em 0;
   border-radius: 999px;
   background-color: $light-gray;
   color: $dark-gray;
   text-decoration: none;
+  font: inherit;
 }
 
-.pub-tag-filter {
-  margin: 0.75em 0 1em;
-}
-
-.pub-tag-filter__tag {
-  border: 0;
+.pub-tag--clickable {
   cursor: pointer;
-  transition: opacity 0.15s ease-in-out, filter 0.15s ease-in-out, transform 0.05s ease-in-out;
 }
 
-.pub-tag-filter__tag:focus {
+.pub-tag--clickable:focus {
   outline: 2px solid rgba($info-color, 0.6);
   outline-offset: 2px;
 }
 
-.pub-tag-filter__tag:hover {
+.pub-tag--clickable:hover {
   filter: brightness(0.97);
+}
+
+.pub-tag-filter {
+  margin: 1.5em 0 1em;
+}
+
+.pub-tag-filter__tag {
+  transition: opacity 0.15s ease-in-out, filter 0.15s ease-in-out, transform 0.05s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .pub-tag-filter__tag:active {

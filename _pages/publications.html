@@ -11,7 +11,7 @@ author_profile: true
 
 {% assign seen_tag_slugs = "|" %}
 <div id="pub-tag-filter" class="pub-tag-filter" aria-label="Filter publications by tag">
-  <button type="button" class="pub-tag pub-tag--all pub-tag-filter__tag is-active" data-tag="__all" aria-pressed="true">All</button>
+  <button type="button" class="pub-tag pub-tag--all pub-tag--clickable pub-tag-filter__tag is-active" data-pub-tag="__all" aria-pressed="true">All</button>
   {% for post in site.publications %}
     {% if post.publication_tags %}
       {% for tag in post.publication_tags %}
@@ -21,7 +21,7 @@ author_profile: true
           {% continue %}
         {% endif %}
         {% assign seen_tag_slugs = seen_tag_slugs | append: slug_token %}
-        <button type="button" class="pub-tag pub-tag--{{ slug }} pub-tag-filter__tag" data-tag="{{ slug }}" aria-pressed="false">{{ tag }}</button>
+        <button type="button" class="pub-tag pub-tag--{{ slug }} pub-tag--clickable pub-tag-filter__tag" data-pub-tag="{{ slug }}" aria-pressed="false">{{ tag }}</button>
       {% endfor %}
     {% endif %}
   {% endfor %}
@@ -38,15 +38,15 @@ author_profile: true
       var filterEl = document.getElementById("pub-tag-filter");
       if (!filterEl) return;
 
-      var buttons = Array.prototype.slice.call(filterEl.querySelectorAll("[data-tag]"));
+      var buttons = Array.prototype.slice.call(filterEl.querySelectorAll("[data-pub-tag]"));
       if (buttons.length === 0) return;
 
       var items = Array.prototype.slice.call(document.querySelectorAll("[data-publication-tags]"));
 
       function setActiveTag(tagSlug) {
         buttons.forEach(function (btn) {
-          var isAll = btn.getAttribute("data-tag") === "__all";
-          var isActive = (tagSlug === "__all" && isAll) || (tagSlug !== "__all" && btn.getAttribute("data-tag") === tagSlug);
+          var isAll = btn.getAttribute("data-pub-tag") === "__all";
+          var isActive = (tagSlug === "__all" && isAll) || (tagSlug !== "__all" && btn.getAttribute("data-pub-tag") === tagSlug);
           btn.classList.toggle("is-active", isActive);
           btn.classList.toggle("is-inactive", tagSlug !== "__all" && !isActive);
           btn.setAttribute("aria-pressed", isActive ? "true" : "false");
@@ -64,14 +64,14 @@ author_profile: true
         });
       }
 
-      filterEl.addEventListener("click", function (e) {
+      document.addEventListener("click", function (e) {
         var target = e.target;
         if (!target || !target.getAttribute) return;
-        var tag = target.getAttribute("data-tag");
+        var tag = target.getAttribute("data-pub-tag");
         if (!tag) return;
 
         var currentlyActive = filterEl.querySelector(".pub-tag-filter__tag.is-active");
-        var currentTag = currentlyActive ? currentlyActive.getAttribute("data-tag") : "__all";
+        var currentTag = currentlyActive ? currentlyActive.getAttribute("data-pub-tag") : "__all";
 
         if (tag === currentTag) setActiveTag("__all");
         else setActiveTag(tag);

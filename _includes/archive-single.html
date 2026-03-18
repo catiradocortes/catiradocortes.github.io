@@ -83,7 +83,8 @@
     {% if post.publication_tags %}
       <p class="archive__item-tags">
         {% for tag in post.publication_tags %}
-          <span class="pub-tag pub-tag--{{ tag | slugify }}">{{ tag }}</span>
+          {% assign tag_slug = tag | slugify %}
+          <button type="button" class="pub-tag pub-tag--{{ tag_slug }} pub-tag--clickable" data-pub-tag="{{ tag_slug }}" aria-label="Filter by tag {{ tag }}">{{ tag }}</button>
         {% endfor %}
       </p>
     {% endif %}
