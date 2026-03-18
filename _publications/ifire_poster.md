@@ -2,6 +2,9 @@
 title: "iFire: AI Immersive Visualisation to Enhance Fire Training Sensemaking"
 collection: publications
 category: posters
+publication_tags:
+    - iFire
+    - firefighter training
 permalink: /publication/ifire_poster
 excerpt: ''
 date: 2024-09-03
