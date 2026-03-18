@@ -81,6 +81,50 @@
   text-decoration: none;
 }
 
+.pub-tag-filter {
+  margin: 0.75em 0 1em;
+}
+
+.pub-tag-filter__tag {
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.15s ease-in-out, filter 0.15s ease-in-out, transform 0.05s ease-in-out;
+}
+
+.pub-tag-filter__tag:focus {
+  outline: 2px solid rgba($info-color, 0.6);
+  outline-offset: 2px;
+}
+
+.pub-tag-filter__tag:hover {
+  filter: brightness(0.97);
+}
+
+.pub-tag-filter__tag:active {
+  transform: translateY(1px);
+}
+
+.pub-tag-filter__tag.is-inactive {
+  opacity: 0.35;
+  filter: grayscale(0.3);
+}
+
+.pub-tag-filter__tag.is-active {
+  opacity: 1;
+  filter: none;
+  box-shadow: 0 0 0 2px rgba(#000, 0.08);
+}
+
+.pub-tag--all {
+  background-color: $dark-gray;
+  color: #fff;
+}
+
+// Used by the tag filter JS
+.is-hidden {
+  display: none !important;
+}
+
 // Example color overrides per tag "slug"
 // Adjust or extend these classes as you like in this file.
 .pub-tag--vr-sickness {
@@ -146,6 +190,26 @@
 .pub-tag--falls-in-vr {
   background-color: #166534; // dark green
   color: #ffffff;
+}
+
+.pub-tag--navigation {
+  background-color: #9ca3af; // boring gray
+  color: #111827;
+}
+
+.pub-tag--ar {
+  background-color: #ef4444; // bright red
+  color: #ffffff;
+}
+
+.pub-tag--non-human-hci {
+  background-color: #10b981; // aqua-green
+  color: #05342a;
+}
+
+.pub-tag--visualization {
+  background-color: #fbcfe8; // light pink
+  color: #5b0f32;
 }
 
 .archive__item-teaser {

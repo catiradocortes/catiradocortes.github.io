@@ -9,6 +9,79 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+{% assign seen_tag_slugs = "|" %}
+<div id="pub-tag-filter" class="pub-tag-filter" aria-label="Filter publications by tag">
+  <button type="button" class="pub-tag pub-tag--all pub-tag-filter__tag is-active" data-tag="__all" aria-pressed="true">All</button>
+  {% for post in site.publications %}
+    {% if post.publication_tags %}
+      {% for tag in post.publication_tags %}
+        {% assign slug = tag | slugify %}
+        {% assign slug_token = "|" | append: slug | append: "|" %}
+        {% if seen_tag_slugs contains slug_token %}
+          {% continue %}
+        {% endif %}
+        {% assign seen_tag_slugs = seen_tag_slugs | append: slug_token %}
+        <button type="button" class="pub-tag pub-tag--{{ slug }} pub-tag-filter__tag" data-tag="{{ slug }}" aria-pressed="false">{{ tag }}</button>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<script>
+  (function () {
+    function ready(fn) {
+      if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", fn);
+      else fn();
+    }
+
+    ready(function () {
+      var filterEl = document.getElementById("pub-tag-filter");
+      if (!filterEl) return;
+
+      var buttons = Array.prototype.slice.call(filterEl.querySelectorAll("[data-tag]"));
+      if (buttons.length === 0) return;
+
+      var items = Array.prototype.slice.call(document.querySelectorAll("[data-publication-tags]"));
+
+      function setActiveTag(tagSlug) {
+        buttons.forEach(function (btn) {
+          var isAll = btn.getAttribute("data-tag") === "__all";
+          var isActive = (tagSlug === "__all" && isAll) || (tagSlug !== "__all" && btn.getAttribute("data-tag") === tagSlug);
+          btn.classList.toggle("is-active", isActive);
+          btn.classList.toggle("is-inactive", tagSlug !== "__all" && !isActive);
+          btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+        });
+
+        items.forEach(function (el) {
+          if (tagSlug === "__all") {
+            el.classList.remove("is-hidden");
+            return;
+          }
+          var csv = el.getAttribute("data-publication-tags") || "";
+          var tags = csv.split(",").filter(Boolean);
+          var match = tags.indexOf(tagSlug) !== -1;
+          el.classList.toggle("is-hidden", !match);
+        });
+      }
+
+      filterEl.addEventListener("click", function (e) {
+        var target = e.target;
+        if (!target || !target.getAttribute) return;
+        var tag = target.getAttribute("data-tag");
+        if (!tag) return;
+
+        var currentlyActive = filterEl.querySelector(".pub-tag-filter__tag.is-active");
+        var currentTag = currentlyActive ? currentlyActive.getAttribute("data-tag") : "__all";
+
+        if (tag === currentTag) setActiveTag("__all");
+        else setActiveTag(tag);
+      });
+
+      setActiveTag("__all");
+    });
+  })();
+</script>
+
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
