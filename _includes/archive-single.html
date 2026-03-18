@@ -14,19 +14,9 @@
   {% assign title = post.title %}
 {% endif %}
 
-{% assign pub_tags_csv = "" %}
-{% if post.publication_tags %}
-  {% for tag in post.publication_tags %}
-    {% assign tag_slug = tag | slugify %}
-    {% if pub_tags_csv == "" %}
-      {% assign pub_tags_csv = tag_slug %}
-    {% else %}
-      {% assign pub_tags_csv = pub_tags_csv | append: "," | append: tag_slug %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
+{% capture pub_tags_csv %}{% for tag in post.publication_tags %}{% unless forloop.first %},{% endunless %}{{ tag | slugify }}{% endfor %}{% endcapture %}
 
-<div class="{{ include.type | default: "list" }}__item"{% if pub_tags_csv != "" %} data-publication-tags="{{ pub_tags_csv }}"{% endif %}>
+<div class="{{ include.type | default: "list" }}__item"{% if post.publication_tags %} data-publication-tags="{{ pub_tags_csv }}"{% endif %}>
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">

@@ -51,8 +51,7 @@ author_profile: true
       var buttons = Array.prototype.slice.call(filterEl.querySelectorAll("[data-pub-tag]"));
       if (buttons.length === 0) return;
 
-      // All publication list items (some may not have tags)
-      var items = Array.prototype.slice.call(document.querySelectorAll(".list__item"));
+      var items = Array.prototype.slice.call(document.querySelectorAll("[data-publication-tags]"));
 
       function setActiveTag(tagSlug) {
         buttons.forEach(function (btn) {
@@ -68,10 +67,8 @@ author_profile: true
             el.classList.remove("is-hidden");
             return;
           }
-          var tagButtons = el.querySelectorAll("[data-pub-tag]");
-          var tags = Array.prototype.map.call(tagButtons, function (btn) { return btn.getAttribute("data-pub-tag"); });
+          var tags = (el.getAttribute("data-publication-tags") || "").split(",").filter(Boolean);
           var match = tags.indexOf(tagSlug) !== -1;
-          // If an item has no tags, hide it when a specific tag is selected
           el.classList.toggle("is-hidden", !match);
         });
       }
