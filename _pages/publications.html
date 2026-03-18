@@ -24,7 +24,7 @@ author_profile: true
 
 {% assign tag_array = tag_pairs | split: "||" | sort %}
 
-<h1 style="margin-top: 2em;">Filters</h1>
+<h1 style="margin-top: 3em; padding-top: 1em; border-top: 1px solid #f2f3f3;">Filters</h1>
 <div id="pub-tag-filter" class="pub-tag-filter" aria-label="Filter publications by tag">
   <button type="button" class="pub-tag pub-tag--all pub-tag--clickable pub-tag-filter__tag is-active" data-pub-tag="__all" aria-pressed="true">All</button>
   {% for pair in tag_array %}
