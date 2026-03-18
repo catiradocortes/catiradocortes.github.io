@@ -9,21 +9,31 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% assign seen_tag_slugs = "|" %}
+{% assign tag_pairs = "" %}
+{% for post in site.publications %}
+  {% if post.publication_tags %}
+    {% for tag in post.publication_tags %}
+      {% assign slug = tag | slugify %}
+      {% assign pair = slug | append: "::" | append: tag %}
+      {% unless tag_pairs contains pair %}
+        {% assign tag_pairs = tag_pairs | append: pair | append: "||" %}
+      {% endunless %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% assign tag_array = tag_pairs | split: "||" | sort %}
+
 <div id="pub-tag-filter" class="pub-tag-filter" aria-label="Filter publications by tag">
   <button type="button" class="pub-tag pub-tag--all pub-tag--clickable pub-tag-filter__tag is-active" data-pub-tag="__all" aria-pressed="true">All</button>
-  {% for post in site.publications %}
-    {% if post.publication_tags %}
-      {% for tag in post.publication_tags %}
-        {% assign slug = tag | slugify %}
-        {% assign slug_token = "|" | append: slug | append: "|" %}
-        {% if seen_tag_slugs contains slug_token %}
-          {% continue %}
-        {% endif %}
-        {% assign seen_tag_slugs = seen_tag_slugs | append: slug_token %}
-        <button type="button" class="pub-tag pub-tag--{{ slug }} pub-tag--clickable pub-tag-filter__tag" data-pub-tag="{{ slug }}" aria-pressed="false">{{ tag }}</button>
-      {% endfor %}
+  {% for pair in tag_array %}
+    {% if pair == "" %}
+      {% continue %}
     {% endif %}
+    {% assign parts = pair | split: "::" %}
+    {% assign slug = parts[0] %}
+    {% assign label = parts[1] %}
+    <button type="button" class="pub-tag pub-tag--{{ slug }} pub-tag--clickable pub-tag-filter__tag" data-pub-tag="{{ slug }}" aria-pressed="false">{{ label }}</button>
   {% endfor %}
 </div>
 
