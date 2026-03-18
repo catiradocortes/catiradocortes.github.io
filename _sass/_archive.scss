@@ -113,6 +113,41 @@
   color: #ffffff;
 }
 
+.pub-tag--bushfires {
+  background: linear-gradient(90deg, #dc2626 0%, #f97316 100%); // red -> orange
+  color: #ffffff;
+}
+
+.pub-tag--vr-walking {
+  background-color: #7dd3fc; // light blue
+  color: #0b2540;
+}
+
+.pub-tag--vr {
+  background-color: #1d4ed8; // darker blue
+  color: #ffffff;
+}
+
+.pub-tag--human-biomechanics {
+  background-color: #22d3ee; // aqua blue
+  color: #053042;
+}
+
+.pub-tag--disaster-resilience {
+  background-color: #ea580c; // orange tone
+  color: #ffffff;
+}
+
+.pub-tag--eeg {
+  background-color: #c026d3; // pinkish-purple
+  color: #ffffff;
+}
+
+.pub-tag--falls-in-vr {
+  background-color: #166534; // dark green
+  color: #ffffff;
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
