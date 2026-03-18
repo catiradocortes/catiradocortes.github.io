@@ -2,6 +2,12 @@
 title: "Designing an Immersive Wildfire Visualization System for Firefighters"
 collection: publications
 category: posters
+publication_tags:
+    - iFire
+    - Bushfires
+    - Firefighter Training
+    - Visualization
+    - Disaster Resilience
 permalink: /publication/ifire_system
 excerpt: ''
 date: 2025-04-26

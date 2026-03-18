@@ -2,6 +2,9 @@
 title: "Evaluation of the Effectiveness of a Novel Brain-Computer Interface Neuromodulative Intervention to Relieve Neuropathic Pain Following Spinal Cord Injury: Protocol for a Single-Case Experimental Design With Multiple Baselines"
 collection: publications
 category: manuscripts
+publication_tags:
+    - EEG
+    - BCI
 permalink: /publication/JMIR_Protocol
 excerpt: ''
 date: 2020-09-29

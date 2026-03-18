@@ -2,6 +2,10 @@
 title: "Evaluating Balance Recovery Techniques for Users Wearing Head-Mounted Display in VR"
 collection: publications
 category: manuscripts
+publication_tags:
+    - VR
+    - Falls in VR
+    - Human Biomechanics
 permalink: /publications/TVCG_falls
 excerpt: ''
 date: 2019-07-09

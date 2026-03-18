@@ -2,6 +2,11 @@
 title: "Analysis of VR Sickness and Gait Parameters During Non-Isometric Virtual Walking with Large Translational Gain"
 collection: publications
 category: posters
+publication_tags:
+    - VR Sickness
+    - VR Walking
+    - VR
+    - Human Biomechanics
 permalink: /publication/vrst_poster_2019
 excerpt: ''
 date: 2019-11-12

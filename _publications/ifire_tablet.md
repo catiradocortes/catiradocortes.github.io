@@ -2,6 +2,10 @@
 title: "Tablet as an enabler for Immersive Visceral Experiences"
 collection: publications
 category: posters
+publication_tags:
+    - iFire
+    - Firefighter Training
+    - Disaster Resilience
 permalink: /publication/ifire_table
 excerpt: ''
 date: 2025-04-26

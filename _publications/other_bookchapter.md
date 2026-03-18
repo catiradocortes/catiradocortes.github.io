@@ -2,6 +2,10 @@
 title: "Immersive Visualisation Systems as Alignment Strategies for Extreme Event Scenarios"
 collection: publications
 category: books
+publication_tags:
+    - iFire
+    - Bushfires
+    - Disaster Resilience
 permalink: /publications/other_bookchapter
 excerpt: ''
 date: 2024-05-03

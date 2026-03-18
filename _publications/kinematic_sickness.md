@@ -4,6 +4,9 @@ collection: publications
 category: manuscripts
 publication_tags:
     - VR Sickness
+    - VR Walking
+    - VR
+    - Human Biomechanics
 permalink: /publications/kinematic_sickness
 excerpt: ''
 date: 2026-03-23

@@ -4,7 +4,9 @@ collection: publications
 category: posters
 publication_tags:
     - iFire
-    - firefighter training
+    - Firefighter Training
+    - Visualization
+    - Disaster Resilience
 permalink: /publication/ifire_poster
 excerpt: ''
 date: 2024-09-03

@@ -2,6 +2,8 @@
 title: "Digital Playground: Is the Metaverse safe for my child?"
 collection: publications
 category: workshop
+publication_tags:
+    - VR
 permalink: /publication/safe_space_kids_avatar
 excerpt: ''
 date: 2025-04-26

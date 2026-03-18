@@ -2,6 +2,12 @@
 title: "Human brain dynamics during navigation with natural walking under different workload conditions in virtual reality by using the mobile brain/body imaging approach"
 collection: publications
 category: posters
+publication_tags:
+    - BCI
+    - Navigation
+    - EEG
+    - VR Walking
+    - VR
 permalink: /publication/vrst_poster_2019
 excerpt: ''
 date: 2019-10-23

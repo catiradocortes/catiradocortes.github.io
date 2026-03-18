@@ -2,6 +2,10 @@
 title: "Analysis of Wildfire Visualization Systems for Research and Training: Are They Up for the Challenge of the Current State of Wildfires?"
 collection: publications
 category: manuscripts
+    - iFire
+    - Bushfires
+    - Visualization
+    - Firefighter Training
 permalink: /publications/TVCG_Wildfires
 excerpt: ''
 date: 2023-03-17

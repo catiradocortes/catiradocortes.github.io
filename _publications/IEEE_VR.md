@@ -4,6 +4,11 @@ collection: publications
 category: conferences
 publication_tags:
     - VR Sickness
+    - EEG
+    - BCI
+    - VR Walking
+    - VR
+    - Human Biomechanics
 permalink: /publications/IEEE_VR
 excerpt: ''
 date: 2023-03-25

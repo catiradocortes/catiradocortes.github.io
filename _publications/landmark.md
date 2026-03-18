@@ -4,6 +4,7 @@ collection: publications
 category: posters
 publication_tags:
     - Navigation
+    - AR
 permalink: /publication/landmark
 excerpt: ''
 date: 2021-05-08

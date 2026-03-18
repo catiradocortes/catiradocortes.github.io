@@ -2,6 +2,10 @@
 title: "Dynamic fire-atmosphere interaction in the 2020 Montana Bridger Foothills Wildfire as revealed by WRF-SFIRE simulations"
 collection: publications
 category: manuscripts
+publication_tags:
+    - iFire
+    - Bushfires
+    - Disaster Resilience
 permalink: /publications/npjNH_WRF
 excerpt: ''
 date: 2025-07-31

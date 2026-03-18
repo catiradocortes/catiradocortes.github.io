@@ -2,6 +2,12 @@
 title: "Estimating the cognitive load in physical spatial navigation"
 collection: publications
 category: conferences
+publication_tags:
+    - BCI
+    - EEG
+    - VR Walking
+    - Navigation
+    - VR
 permalink: /publication/cognitive_load_conf
 excerpt: ''
 date: 2020-12-01

@@ -2,6 +2,10 @@
 title: "Probing More-Than-Human Representation in Crisis Resilience Planning: An HCI Researcher Perspective"
 collection: publications
 category: posters
+publication_tags:
+    - Non-Human HCI
+    - Disaster Resilience
+    - AR
 permalink: /publication/nonhuman_chi
 excerpt: ''
 date: 2026-04-13
